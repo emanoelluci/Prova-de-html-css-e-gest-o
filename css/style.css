@@ -1,0 +1,115 @@
+/*
+	Resetando todos os elementos do html
+*/
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+
+a {
+	color: #fff;
+	font: 18px prime;
+	text-decoration: none;
+	padding: 10px;
+	font-weight: 300;
+	transition: all 0.8s;
+}
+
+header {
+	width: 100%;
+	position: fixed;
+}
+
+header nav {
+	padding-top: 15px;
+	background-color: hsla(0, 0%, 0%, 0.6);
+	height: 35px;
+}
+
+header nav ul li {
+		display: inline;
+}
+
+header nav ul li a:hover {
+	background: #ccc;
+	color: 000;
+	padding: 10px;
+	width: 300px;
+	height: 300px;-webrit-transform: rotate(180deg); /* safari*/
+	transform: rotate(180deg);
+
+}
+
+section {
+	width: 100%;
+	height: 600px;
+
+}
+#slide {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	width: 100%
+	height: 600px;
+	background-image: url(../images/mitos-gestao-do-tempo.jpg);
+	background-size: cover;
+	padding-bottom: 450px;
+}
+
+#slide h1{
+	margin: 50px;
+	text-align: center;
+	font-family: Lucida Handwriting;
+	color: yellow;
+}
+
+#slide1 h2 {
+	margin: 30px;
+	font-size: 40px;
+	text-align: center;
+	font-family: MV Boli;
+	color: black;
+}
+
+#slide1 p {
+	margin: 10px;
+	font-size: 25px;
+	text-align: center;
+	font-family: MV Boli;
+	color: black;
+}
+
+#slide2 h1 {
+	margin: 10px;
+	font-size: 40px;
+	text-align: center;
+	font-family: Lucida Handwriting;
+	color: black;
+}
+
+#slide3 h2 {
+	margin: 10px;
+	font-size: 40px;
+	text-align: center;
+	font-family: MV Boli;
+	color: black;
+}
+
+#slide3 p {
+	margin: 10px;
+	font-size: 25px;
+	text-align: center;
+	font-family: MV Boli;
+	color: black;
+}
+
+#slide4 {
+	display: flex;
+	flex-direction: top;
+	justify-content: flex-end;
+	background-image: url(../images/relo.jpg);
+	width: 35%;
+	height: 100px;
+	background-size: cover;
+	padding-bottom: 200px;
+}
