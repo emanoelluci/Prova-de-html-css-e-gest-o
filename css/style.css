@@ -1,0 +1,9 @@
+/*
+	Resetando todos os elementos do html
+*/
+#slide h1{
+	margin: 50px;
+	text-align: center;
+	font-family: Lucida Handwriting;
+	color: yellow;
+}
