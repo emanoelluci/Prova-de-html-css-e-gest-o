@@ -1,9 +1,116 @@
 /*
 	Resetando todos os elementos do html
 */
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+
+a {
+	color: #fff;
+	font: 18px prime;
+	text-decoration: none;
+	padding: 10px;
+	font-weight: 300;
+	transition: all 0.8s;
+}
+
+header {
+	width: 100%;
+	position: fixed;
+}
+
+header nav {
+	padding-top: 15px;
+	background-color: hsla(0, 0%, 0%, 0.6);
+	height: 35px;
+}
+
+header nav ul li {
+		display: inline;
+}
+
+header nav ul li a:hover {
+	background: #ccc;
+	color: 000;
+	padding: 10px;
+	width: 300px;
+	height: 300px;-webrit-transform: rotate(180deg); /* safari*/
+	transform: rotate(180deg);
+
+}
+
+section {
+	width: 100%;
+	height: 600px;
+
+}
+#slide {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	width: 100%
+	height: 600px;
+	background-image: url(../images/mitos-gestao-do-tempo.jpg);
+	background-size: cover;
+	padding-bottom: 450px;
+}
+
 #slide h1{
 	margin: 50px;
 	text-align: center;
 	font-family: Lucida Handwriting;
 	color: yellow;
+}
+
+#slide1 h2 {
+	margin: 30px;
+	font-size: 40px;
+	text-align: center;
+	font-family: MV Boli;
+	color: black;
+}
+
+#slide1 p {
+	margin: 10px;
+	font-size: 25px;
+	text-align: center;
+	font-family: MV Boli;
+	color: black;
+}
+
+#slide2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	width: 100%;
+	height: 100px;
+	background-image: url(../images/valorem-post-gestao-de-tempo-g.jpg);
+	background-size: cover;
+	padding-bottom: 500px;
+
+}
+
+#slide2 h1 {
+	margin: 10px;
+	font-size: 40px;
+	text-align: center;
+	font-family: Lucida Handwriting;
+	color: orange;
+}
+
+#slide3 h2 {
+	margin: 20px;
+	font-size: 20px;
+	text-align: center;
+	font-family: Lucida Handwriting;
+	color: black;
+}
+
+#slide3 p {
+	margin: 10px;
+	font-size: 17px;
+	text-align: center;
+	font-family: Lucida Handwriting;
+	color: black;
 }
