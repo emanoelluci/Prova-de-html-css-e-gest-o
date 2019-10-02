@@ -81,6 +81,8 @@ section {
 	background-color: #DCDCDC;
 }
 
+
+
 #slide2 {
 	display: flex;
 	flex-direction: column;
@@ -131,10 +133,94 @@ section {
 
 #slide3 .img {
 	display: flex;
-	flex-direction: column;
+	flex-direction: ;
 }
+
 
 .container {
 	display: flex;
 	flex-direction: row;
+}
+
+.container .box {
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	margin: 5px;
+}
+
+@media screen and (max-width:600px) {
+
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+.container .box {
+	width: 200px;
+	height: 200px;
+	background-color: #0f0;
+	margin: 5px;
+
+}
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+	#slide2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	width: 100%;
+	height: 100px;
+	background-image: url(../images/.jpg);
+	background-color: #F5DEB3;
+	background-size: cover;
+	padding-bottom: 500px;
+
+}
+
+#slide2 h1 {
+	margin: 10px;
+	font-size: 40px;
+	text-align: center;
+	font-family: Lucida Handwriting;
+	color: orange;
+}
+
+
+#slide3 h2 {
+	margin: 20px;
+	font-size: 20px;
+	text-align: center;
+	font-family: Lucida Handwriting;
+	color: black;
+	background-color: 	#F5DEB3;
+}
+
+#slide3 p {
+	margin: 10px;
+	font-size: 17px;
+	text-align: center;
+	font-family: MV Boli;
+	color: black;
+	background-color: #DCDCDC;
+}
+
+
+#slide3 .img span {
+	padding-bottom: 20px;
+	font-size: 20px;
+	font-family: Lucida Handwriting;
+	margin: 15px;
+	text-align: center;
+}
+
+#slide3 .img {
+	display: flex;
+	flex-direction: ;
+}
+
 }
