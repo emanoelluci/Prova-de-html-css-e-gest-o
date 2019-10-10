@@ -100,7 +100,7 @@ section {
 	font-size: 40px;
 	text-align: center;
 	font-family: Lucida Handwriting;
-	color: orange;
+	color: #23238E;
 }
 
 
@@ -135,37 +135,7 @@ section {
 	display: flex;
 	flex-direction: ;
 }
-
-
-.container {
-	display: flex;
-	flex-direction: row;
-}
-
-.container .box {
-	width: 200px;
-	height: 200px;
-	background-color: blue;
-	margin: 5px;
-}
-
-@media screen and (max-width:600px) {
-
-.container {
-	display: flex;
-	flex-direction: column;
-}
-
-.container .box {
-	width: 200px;
-	height: 200px;
-	background-color: #0f0;
-	margin: 5px;
-
-}
-
-}
-
+s
 
 @media screen and (max-width: 600px) {
 
@@ -187,7 +157,7 @@ section {
 	font-size: 40px;
 	text-align: center;
 	font-family: Lucida Handwriting;
-	color: orange;
+	color: #23238E;
 }
 
 
