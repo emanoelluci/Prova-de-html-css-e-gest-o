@@ -123,19 +123,45 @@ section {
 }
 
 
-#slide3 .img span {
-	padding-bottom: 20px;
-	font-size: 20px;
-	font-family: Lucida Handwriting;
-	margin: 15px;
-	text-align: center;
+#slide3 h3 {
+	background-image: url(../images/qual-a-importancia-da-gestao-do-tempo.jpg);
+	height: 340px;
+	width: 700px;
+	margin: center;
 }
 
-#slide3 .img {
-	display: flex;
-	flex-direction: ;
+#slide3 h4 {
+	background-image: url(../images/shutterstock_173412908.jpg);
+	height: 300px;
+	width: 600px;
+	margin: center;
 }
-s
+
+#slide3 h5 {
+	background-image: url(../images/280460-gestao-do-tempo-e-produtividade-x-formas-de-conseguir-na-pratica-1280x640.jpg);
+	height: 530px;
+	width: 900px;
+	margin: center;
+}
+
+#slide3 h6 {
+	background-image: url(../images/195462-6-dicas-de-produtividade-para-voce-ter-uma-rotina-de-alta-performance-740x414.jpg);
+	height: 350px;
+	width: 700px;
+	margin: center;
+}
+
+#slide3 h1 {
+	background-image: url(../images/team-3373638_960_720.jpg);
+	height: 350px;
+	width: 700px;
+	margin: center;
+}
+
+
+
+
+
 
 @media screen and (max-width: 600px) {
 
@@ -179,18 +205,40 @@ s
 	background-color: #DCDCDC;
 }
 
-
-#slide3 .img span {
-	padding-bottom: 20px;
-	font-size: 20px;
-	font-family: Lucida Handwriting;
-	margin: 15px;
-	text-align: center;
+#slide3 h3 {
+	background-image: url(../images/qual-a-importancia-da-gestao-do-tempo.jpg);
+	height: 340px;
+	width: 700px;
+	margin: center;
 }
 
-#slide3 .img {
-	display: flex;
-	flex-direction: ;
+#slide3 h4 {
+	background-image: url(../images/shutterstock_173412908.jpg);
+	height: 300px;
+	width: 600px;
+	margin: center;
 }
+
+#slide3 h5 {
+	background-image: url(../images/280460-gestao-do-tempo-e-produtividade-x-formas-de-conseguir-na-pratica-1280x640.jpg);
+	height: 530px;
+	width: 900px;
+	margin: center;
+}
+
+#slide3 h6 {
+	background-image: url(../images/195462-6-dicas-de-produtividade-para-voce-ter-uma-rotina-de-alta-performance-740x414.jpg);
+	height: 350px;
+	width: 700px;
+	margin: center;
+}
+
+#slide3 h1 {
+	background-image: url(../images/team-3373638_960_720.jpg);
+	height: 350px;
+	width: 700px;
+	margin: center;
+}
+
 
 }
